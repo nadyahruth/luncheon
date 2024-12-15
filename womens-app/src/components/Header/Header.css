@@ -1,0 +1,22 @@
+header{
+    height: 200px;
+    width: auto;
+}
+
+.border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    border-radius: 50px;
+    border: 8px;
+    border-style: solid;
+}
+
+.header-text{
+    font-family: Lemon;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
