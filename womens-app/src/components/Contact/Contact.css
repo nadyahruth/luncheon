@@ -1,0 +1,38 @@
+.flex-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.info-blurb {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25px;
+}
+
+.contact-header {
+  font-size: 3rem;
+}
+
+.message-input {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25px;
+}
+
+.message-input> * {
+    margin: 5px
+}
+.email-submitbtn {
+  margin: 0;
+  align-self: flex-end;
+  width: 200px;
+  margin-top:30px;
+}
+
+.email-body{
+    height: 100px;
+}

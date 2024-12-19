@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background: linear-gradient(#421197, #150531);
+  color: #fff;
+  font-family:Lemon;
+  bottom: 0;
+}
+
+.footer-text {
+  margin-top: auto;
+  padding-bottom: 10px;
+  font-size: 8pt;
+
+}
