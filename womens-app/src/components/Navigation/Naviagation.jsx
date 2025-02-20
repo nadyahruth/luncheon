@@ -1,10 +1,27 @@
 import "./Navigation.css";
 export default function Navigation() {
+  function handleHomeClick() {
+    console.log("Hello Home");
+  }
+  function handleDonationClick() {
+    console.log("Hello Donation");
+  }
+  function handleContactClick() {
+    console.log("Hello Contact");
+  }
   return (
     <nav role="navigation">
-      <a href="">Home</a>
-      <a href="">Make a Donation</a>
-      <a href="">Contact Us</a>
+      <ul>
+        <li>
+          <a onClick={handleHomeClick}>Home</a>
+        </li>
+        <li>
+          <a onClick={handleDonationClick}>Make A Donation</a>
+        </li>
+        <li>
+          <a onClick={handleContactClick}>Contact Us</a>
+        </li>
+      </ul>
     </nav>
   );
 }
