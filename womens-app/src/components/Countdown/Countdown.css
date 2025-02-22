@@ -1,4 +1,21 @@
-span{
-    font-size: large;
-    background-color: blueviolet;
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.format-box{
+    display:flex;
+    height: 120px;
+    width: 150px;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    background:linear-gradient(to bottom, #FFFF ,rgba(66,17,150,.10) 68%);
+    border-radius: 10px;
+    font-size: 2vw;
+    font-family:Lemon ;
+    justify-content: space-evenly;
+    border-bottom: solid 5px #FEB737;
 }

@@ -2,6 +2,7 @@ import Header from "./components/Header/Header.jsx";
 import Countdown from "./components/Countdown/Countdown.jsx";
 import ReactCountdown from "react-countdown";
 import DonationButton from "./components/Donation/DonationButton.jsx";
+import DonationModal from "./components/Donation/DonationModal.jsx";
 import ImageCards from "./components/ImageCards/ImageCards.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import React from "react";
@@ -25,6 +26,7 @@ function App() {
       <main>
         <Header></Header>
         <Countdown></Countdown>
+        <br></br>
         <DonationButton></DonationButton>
         <br></br>
         <hr></hr>
