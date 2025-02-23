@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./DonationButton.css";
+import "./Donation.css";
 import DonationModal from "./DonationModal";
 import ReactDom from "react-dom";
 
